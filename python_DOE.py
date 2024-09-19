@@ -11,7 +11,7 @@ from pyDOE2 import *
 
 ############################################################
 
-responseType = ['full'  , 'reduced'];   # full -> all variables; reduced -> variables with p-value > PR
+responseType = ['full'  , 'reduced'];   # full -> all variables; reduced -> variables with p-value < PR
 modelType    = ['linear', 'quadratic'];
 
 ############# USER DEFINED #################################
